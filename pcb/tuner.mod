@@ -1,0 +1,307 @@
+PCBNEW-LibModule-V1  23/01/2014 10:18:43 PM
+# encoding utf-8
+Units mm
+$INDEX
+BATTERY
+CRYSTAL_SMD
+DIP1
+LED_DISPLAY
+PDI
+SON-6
+SWITCH_SMT
+$EndINDEX
+$MODULE BATTERY
+Po 0 0 0 15 52E1DBF4 00000000 ~~
+Li BATTERY
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -0.5 1 1 0 0.15 N V 21 N "BATTERY"
+T1 0 1 1 1 0 0.15 N V 21 N "VAL**"
+DS -25.61 -12.255 -25.61 12.255 0.15 24
+DS 25.6 12.255 -25.61 12.255 0.15 24
+DS 25.6 -12.255 -25.61 -12.255 0.15 24
+DS 25.6 12.225 25.6 -12.225 0.15 24
+$PAD
+Sh "2" C 3 3 0 0 0
+Dr 2.37 0 0
+At STD N 00E00001
+Ne 0 ""
+Po 0 -8.765
+$EndPAD
+$PAD
+Sh "2" C 3 3 0 0 0
+Dr 2.37 0 0
+At STD N 00E00001
+Ne 0 ""
+Po 0 8.765
+$EndPAD
+$PAD
+Sh "2" C 2.27 2.27 0 0 0
+Dr 1.27 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 23.85 -6.35
+$EndPAD
+$PAD
+Sh "1" C 2.27 2.27 0 0 0
+Dr 1.27 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 23.85 6.35
+$EndPAD
+$EndMODULE BATTERY
+$MODULE CRYSTAL_SMD
+Po 0 0 0 15 52E1F2E1 00000000 ~~
+Li CRYSTAL_SMD
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -3.5 1 1 0 0.15 N V 21 N "CRYSTAL_SMD"
+T1 0 3.5 1 1 0 0.15 N V 21 N "VAL**"
+DS -5.7 2.4 -5.7 1.1 0.15 21
+DS -5.7 2.4 5.7 2.4 0.15 21
+DS 5.7 2.4 5.7 1.1 0.15 21
+DS -5.7 -2.4 5.7 -2.4 0.15 21
+DS 5.7 -2.4 5.7 -1.1 0.15 21
+DS -5.7 -2.4 -5.7 -1.1 0.15 21
+$PAD
+Sh "3" R 5.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.75 0
+$EndPAD
+$PAD
+Sh "4" R 5.5 2 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.75 0
+$EndPAD
+$EndMODULE CRYSTAL_SMD
+$MODULE DIP1
+Po 0 0 0 15 52E1D653 00000000 ~~
+Li DIP1
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -1.27 1 1 0 0.15 N V 21 N "DIP1"
+T1 0 1.27 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" C 1.5 1.5 0 0 0
+Dr 0.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3 0
+$EndPAD
+$PAD
+Sh "2" C 1.5 1.5 0 0 0
+Dr 0.7 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.5 0
+$EndPAD
+$EndMODULE DIP1
+$MODULE LED_DISPLAY
+Po 0 0 0 15 52E20498 00000000 ~~
+Li LED_DISPLAY
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -6.6 1 1 0 0.15 N V 21 N "LED_DISPLAY"
+T1 0.1 6.7 1 1 0 0.15 N V 21 N "VAL**"
+DS 3.5 -4.6 3.5 -5.5 0.15 21
+DS 3.5 -2.6 3.5 -3.4 0.15 21
+DS 3.5 -0.6 3.5 -1.4 0.15 21
+DS 3.5 1.4 3.5 0.6 0.15 21
+DS -3.5 -4.6 -3.5 -5.5 0.15 21
+DS -3.5 -2.6 -3.5 -3.4 0.15 21
+DS -3.5 -0.6 -3.5 -1.4 0.15 21
+DS -3.5 1.4 -3.5 0.6 0.15 21
+DS 3.5 3.4 3.5 2.6 0.15 21
+DS 3.5 5.5 3.5 4.6 0.15 21
+DS -3.5 3.4 -3.5 2.6 0.15 21
+DS -3.5 5.5 -3.5 4.6 0.15 21
+DS -3.5 5.5 3.5 5.5 0.15 21
+DS 3.5 -5.5 -3.5 -5.5 0.15 21
+$PAD
+Sh "8" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4 0
+$EndPAD
+$PAD
+Sh "3" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4 0
+$EndPAD
+$PAD
+Sh "9" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4 -2
+$EndPAD
+$PAD
+Sh "2" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4 -2
+$EndPAD
+$PAD
+Sh "1" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4 -4
+$EndPAD
+$PAD
+Sh "10" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4 -4
+$EndPAD
+$PAD
+Sh "7" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4 2
+$EndPAD
+$PAD
+Sh "6" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4 4
+$EndPAD
+$PAD
+Sh "5" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4 4
+$EndPAD
+$PAD
+Sh "4" R 3 1 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4 2
+$EndPAD
+$EndMODULE LED_DISPLAY
+$MODULE PDI
+Po 0 0 0 15 52E1EE8C 00000000 ~~
+Li PDI
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 1 1 0 0.15 N V 21 N "PDI"
+T1 0 0 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "2" C 2.2 2.2 0 0 0
+Dr 1.27 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -2.54
+$EndPAD
+$EndMODULE PDI
+$MODULE SON-6
+Po 0 0 0 15 52E205BD 00000000 ~~
+Li SON-6
+Sc 0
+AR 
+Op 0 0 0
+T0 0.075 1.95 1 1 0 0.15 N V 21 N "SON-6"
+T1 0.1 -1.85 1 1 0 0.15 N V 21 N "VAL**"
+DS 0.5 -0.2 0.5 -0.3 0.15 21
+DS 0.5 0.3 0.5 0.2 0.15 21
+DS -0.5 0.2 -0.5 0.3 0.15 21
+DS -0.5 -0.3 -0.5 -0.2 0.15 21
+DS 0.5 0.725 -0.5 0.725 0.15 21
+DS -0.5 -0.725 0.5 -0.725 0.15 21
+$PAD
+Sh "5" R 0.75 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.5 0
+.SolderMask 0.05
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "2" R 0.75 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.5 0
+.SolderMask 0.05
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "6" R 0.75 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.5 -0.5
+.SolderMask 0.05
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "1" R 0.75 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.5 -0.5
+.SolderMask 0.05
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "4" R 0.75 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.5 0.5
+.SolderMask 0.05
+.LocalClearance 0.05
+$EndPAD
+$PAD
+Sh "3" R 0.75 0.3 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.5 0.5
+.SolderMask 0.05
+.LocalClearance 0.05
+$EndPAD
+$EndMODULE SON-6
+$MODULE SWITCH_SMT
+Po 0 0 0 15 52E1ED11 00000000 ~~
+Li SWITCH_SMT
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2.5 1 1 0 0.15 N V 21 N "SWITCH_SMT"
+T1 0 2.5 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "2" R 2.2 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.5 0
+$EndPAD
+$PAD
+Sh "1" R 2.2 1.6 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -4.5 0
+$EndPAD
+$EndMODULE SWITCH_SMT
+$EndLIBRARY

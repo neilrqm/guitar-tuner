@@ -1,0 +1,213 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 23/01/2014 10:18:58 PM
+
+BeginCmp
+TimeStamp = /52CCF1D0;
+Reference = BT1;
+ValeurCmp = BATT;
+IdModule  = BATTERY;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E0AEF3;
+Reference = C1;
+ValeurCmp = 2.2 uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E0AFF0;
+Reference = C2;
+ValeurCmp = 4.7 uF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E0CA5E;
+Reference = C3;
+ValeurCmp = 100 nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E0C19F;
+Reference = C4;
+ValeurCmp = 100 nF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CF62BB;
+Reference = C5;
+ValeurCmp = 25 pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CF62D3;
+Reference = C6;
+ValeurCmp = 27 pF;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E0CBCB;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E0CBD8;
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E0AF9D;
+Reference = L1;
+ValeurCmp = 2.2 uH;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E1A1E0;
+Reference = P1;
+ValeurCmp = PDI;
+IdModule  = pin_array_3x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E1A2F8;
+Reference = R1;
+ValeurCmp = 10 K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E0C274;
+Reference = R2;
+ValeurCmp = 27 Ohms;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E0C2A8;
+Reference = R3;
+ValeurCmp = 27 Ohms;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E0C2AE;
+Reference = R4;
+ValeurCmp = 27 Ohms;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E0C2C8;
+Reference = R5;
+ValeurCmp = 27 Ohms;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E0C2CE;
+Reference = R6;
+ValeurCmp = 27 Ohms;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E0C2D4;
+Reference = R7;
+ValeurCmp = 27 Ohms;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E0C2DA;
+Reference = R8;
+ValeurCmp = 27 Ohms;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E0C2E0;
+Reference = R9;
+ValeurCmp = 27 Ohms;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E0CBBD;
+Reference = R10;
+ValeurCmp = 18 Ohms;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E0CBC3;
+Reference = R11;
+ValeurCmp = 18 Ohms;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CCF7E7;
+Reference = SW1;
+ValeurCmp = SPST;
+IdModule  = DIP1;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CF9D48;
+Reference = SW2;
+ValeurCmp = <;
+IdModule  = SWITCH_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CF9D55;
+Reference = SW3;
+ValeurCmp = >;
+IdModule  = SWITCH_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E07504;
+Reference = SW4;
+ValeurCmp = Mode;
+IdModule  = SWITCH_SMT;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E0AD43;
+Reference = U1;
+ValeurCmp = TPS622312;
+IdModule  = SON-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E07C73;
+Reference = U2;
+ValeurCmp = NKR131SB;
+IdModule  = LED_DISPLAY;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E0B7B5;
+Reference = U3;
+ValeurCmp = ATXMEGA8E5;
+IdModule  = TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /52CCB098;
+Reference = X1;
+ValeurCmp = 8 MHz;
+IdModule  = CRYSTAL_SMD;
+EndCmp
+
+EndListe
