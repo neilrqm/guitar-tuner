@@ -1,0 +1,22 @@
+BATTERY	1	"BT1"	http://www.digikey.ca/product-detail/en/BH2AAAPC/BH2AAA-PC-ND/31513
+10 uF	2	"C1 C4"	http://www.digikey.ca/product-detail/en/CC0805KKX5R5BB106/311-1459-1-ND/2833765
+100 nF	5	"C2 C5 C6 C7 C8"	http://www.digikey.ca/product-detail/en/CC0805KKX5R5BB106/311-1459-1-ND/2833765
+22 pF	1	"C3"	http://www.digikey.ca/product-detail/en/C0805C220J5GACTU/399-1113-1-ND/411388
+25 pF	1	"C9"	http://www.digikey.ca/product-detail/en/CL21C250JBANNNC/1276-2621-1-ND/3890707
+27 pF	1	"C10"	http://www.digikey.ca/product-detail/en/C0805C270J5GACTU/399-1114-1-ND/411389
+LED	2	"D1 D2"	http://www.digikey.ca/product-detail/en/SML-LX0805SRC-TR/67-2191-1-ND/4172834
+2.2 uH	1	"L1"	http://www.digikey.ca/product-detail/en/LQM2HPN2R2MJ0L/490-6700-1-ND/3845897
+PDI	1	"P1"
+422 K	1	"R1"	http://www.digikey.ca/product-detail/en/RC0805FR-07422KL/311-422KCRCT-ND/730898
+180 K	1	"R2"	http://www.digikey.ca/product-detail/en/RC0805FR-07180KL/311-180KCRCT-ND/730597
+10 K	4	"R3 R4 R5 R12"	http://www.digikey.ca/product-detail/en/RC0805FR-0710KL/311-10.0KCRCT-ND/730482
+27 Ohms	8	"R6 R7 R8 R9 R10 R11 R13 R14"	http://www.digikey.ca/product-detail/en/ERJ-6ENF27R0V/P27.0CCT-ND/1746845
+18 Ohms	2	"R15 R16"	http://www.digikey.ca/product-detail/en/RC0805FR-0718RL/311-18.0CRCT-ND/730590
+SPST	1	"SW1"	http://www.digikey.ca/product-detail/en/CVS-01C/563-1222-ND/1991504
+<	1	"SW2"	http://www.digikey.ca/product-detail/en/MJTP1243/679-2452-ND/1798039
+>	1	"SW3"	http://www.digikey.ca/product-detail/en/MJTP1243/679-2452-ND/1798039
+Mode	1	"SW4"	http://www.digikey.ca/product-detail/en/MJTP1243/679-2452-ND/1798039
+NKR131SB	1	"U2"	http://www.digikey.ca/product-detail/en/NKR131SB/404-1119-ND/428810
+ATXMEGA8E5	1	"U3"	http://www.digikey.ca/product-detail/en/ATXMEGA8E5-AUR/ATXMEGA8E5-AURCT-ND/4119404
+TPS62240	1	"U1"	http://www.digikey.ca/product-detail/en/TPS62240DDCT/296-22466-1-ND/1667035
+8 MHz	1	"Y1"	http://www.digikey.ca/product-detail/en/9C-8.000MEEJ-T/887-1263-1-ND/2207845
