@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  30/01/2014 10:35:08 PM
+PCBNEW-LibModule-V1  08/02/2014 4:21:41 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -109,24 +109,18 @@ Po -3.5 0
 $EndPAD
 $EndMODULE DIP1
 $MODULE LED_DISPLAY
-Po 0 0 0 15 52E20498 00000000 ~~
+Po 0 0 0 15 52F6CA0B 00000000 ~~
 Li LED_DISPLAY
 Sc 0
-AR 
+AR /52E07C73
 Op 0 0 0
-T0 0 -6.6 1 1 0 0.15 N V 21 N "LED_DISPLAY"
-T1 0.1 6.7 1 1 0 0.15 N V 21 N "VAL**"
+T0 -3.1 6.2 0.5 0.5 0 0.125 N V 21 N "U2"
+T1 0.05 0.3 1 1 900 0.15 N I 21 N "NKR131SB"
+DS -3.5 -4.6 -3.5 4.6 0.15 21
+DS 3.5 -4.6 3.5 4.6 0.15 21
 DS 3.5 -4.6 3.5 -5.5 0.15 21
-DS 3.5 -2.6 3.5 -3.4 0.15 21
-DS 3.5 -0.6 3.5 -1.4 0.15 21
-DS 3.5 1.4 3.5 0.6 0.15 21
 DS -3.5 -4.6 -3.5 -5.5 0.15 21
-DS -3.5 -2.6 -3.5 -3.4 0.15 21
-DS -3.5 -0.6 -3.5 -1.4 0.15 21
-DS -3.5 1.4 -3.5 0.6 0.15 21
-DS 3.5 3.4 3.5 2.6 0.15 21
 DS 3.5 5.5 3.5 4.6 0.15 21
-DS -3.5 3.4 -3.5 2.6 0.15 21
 DS -3.5 5.5 -3.5 4.6 0.15 21
 DS -3.5 5.5 3.5 5.5 0.15 21
 DS 3.5 -5.5 -3.5 -5.5 0.15 21
@@ -134,70 +128,70 @@ $PAD
 Sh "8" R 3 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 6 "N-0000020"
 Po 4 0
 $EndPAD
 $PAD
 Sh "3" R 3 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 9 "N-000008"
 Po -4 0
 $EndPAD
 $PAD
 Sh "9" R 3 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po 4 -2
 $EndPAD
 $PAD
 Sh "2" R 3 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 4 "N-0000018"
 Po -4 -2
 $EndPAD
 $PAD
 Sh "1" R 3 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 2 "N-0000015"
 Po -4 -4
 $EndPAD
 $PAD
 Sh "10" R 3 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 7 "N-0000021"
 Po 4 -4
 $EndPAD
 $PAD
 Sh "7" R 3 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 1 "GND"
 Po 4 2
 $EndPAD
 $PAD
 Sh "6" R 3 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 8 "N-000007"
 Po 4 4
 $EndPAD
 $PAD
 Sh "5" R 3 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 3 "N-0000017"
 Po -4 4
 $EndPAD
 $PAD
 Sh "4" R 3 1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
-Ne 0 ""
+Ne 5 "N-0000019"
 Po -4 2
 $EndPAD
 $EndMODULE LED_DISPLAY
