@@ -26,16 +26,17 @@
 
 typedef enum
 {
-	A=(led_a | led_f | led_b | led_g | led_e | led_c),
-	B=(led_a | led_f | led_b | led_g | led_e | led_c | led_d),
-	C=(led_a | led_f | led_e | led_d),
-	D=(led_a | led_f | led_b | led_e | led_c | led_d),
-	E=(led_a | led_f | led_g | led_e | led_d),
-	F=(led_a | led_f | led_g | led_e),
-	G=(led_a | led_f | led_e | led_c | led_d),
-} NOTE_t;
+	A=0,
+	B,
+	C,
+	D,
+	E,
+	F,
+	G,
+	e,
+	NUM_CHARS,
+} CHAR_t;
 
 #define output_7seg(x) (PORTC.OUT = x)
-#define config_7seg() (PORTC.DIRSET = 0xFF);
 
 #endif /* TUNER_H_ */
