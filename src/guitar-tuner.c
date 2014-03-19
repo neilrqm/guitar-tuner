@@ -8,6 +8,7 @@
 
 #include <avr/io.h>
 #include <avr/interrupt.h>
+#include <util/delay.h>
 #include "tuner.h"
 
 uint8_t led_chars[NUM_CHARS] =
@@ -48,7 +49,7 @@ void update()
 	output_7seg(CURRENT_CHAR());
 	CLEAR_LEDS();
 	state = START;
-	TCC4.CCA = 100;
+	TCC4.CCA += 100;
 }
 
 int main(void)
@@ -91,9 +92,17 @@ int main(void)
 	
 	update();
 	
+	/*uint8_t i;
+	for (i = 0; i < NUM_CHARS; i++)
+	{
+		output_7seg(led_chars[i]);
+		_delay_ms(1000);
+	}*/
+	
     for (;;)
     {
         //TODO:: Please write your application code 
+		sei();
     }
 }
 
@@ -101,30 +110,30 @@ ISR(PORTA_INT_vect)
 {
 	// disable input and start countdown for re-enabling input
 	DISABLE_INPUT();
+	PORTA.INTFLAGS = 0xFF;
 	input_enable_countdown = INPUT_ENABLE_OVERFLOWS;
 	ENABLE_COUNTDOWN();
 	
 	if (UP_BUTTON_PRESSED() && !DOWN_BUTTON_PRESSED())
 	{
-		while (tuning_notes[cursor] == nOFF)
-		{
+		do {
 			cursor = (cursor + 1) % notes_in_tuning;
-		}
+		} while (tuning_notes[cursor] == nOFF);
 		update();
 	}
 	else if (DOWN_BUTTON_PRESSED() && !UP_BUTTON_PRESSED())
 	{
-		while (tuning_notes[cursor] == nOFF)
-		{
+		do {
 			cursor = (cursor - 1) % notes_in_tuning;
-		}
+		} while (tuning_notes[cursor] == nOFF);
 		update();
 	}
 }
 
+volatile uint32_t delay;
+volatile uint32_t period_calc;
 ISR(TCC4_CCA_vect)
 {
-	uint32_t delay;
 	// move through the output state machine
 	switch (state)
 	{
@@ -157,7 +166,12 @@ ISR(TCC4_CCA_vect)
 			// this locks to the frequency to avoid the effect of division drift
 			CLEAR_LEDS();
 			state = LED2_OFF;
-			TCC4.CCA += period_start + CURRENT_PERIOD();
+			period_calc = period_start;
+			period_calc += CURRENT_PERIOD();
+			TCC4.CCA = (uint16_t)period_calc;
+			//delay = CURRENT_PERIOD() * 3;
+			//delay /= 8;
+			//TCC4.CCA += delay;
 			break;
 	}
 }
