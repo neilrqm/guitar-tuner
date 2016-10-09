@@ -1,0 +1,16 @@
+(module BATTERY (layer F.Cu) (tedit 52EB4411)
+  (fp_text reference BT1 (at 22.5 -8.2) (layer F.SilkS) hide
+    (effects (font (size 0.5 0.5) (thickness 0.125)))
+  )
+  (fp_text value BATTERY (at 24.04 9.04) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -25.61 -12.255) (end -25.61 12.255) (layer Dwgs.User) (width 0.15))
+  (fp_line (start 25.6 12.255) (end -25.61 12.255) (layer Dwgs.User) (width 0.15))
+  (fp_line (start 25.6 -12.255) (end -25.61 -12.255) (layer Dwgs.User) (width 0.15))
+  (fp_line (start 25.6 12.225) (end 25.6 -12.225) (layer Dwgs.User) (width 0.15))
+  (pad "" np_thru_hole circle (at 0 -8.765) (size 2.37 2.37) (drill 2.37) (layers *.Cu *.Mask F.SilkS))
+  (pad "" np_thru_hole circle (at 0 8.765) (size 2.37 2.37) (drill 2.37) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 23.85 -6.35) (size 2.27 2.27) (drill 1.27) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at 23.85 6.35) (size 2.27 2.27) (drill 1.27) (layers *.Cu *.Mask F.SilkS))
+)
